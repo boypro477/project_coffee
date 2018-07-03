@@ -1,0 +1,303 @@
+
+/* .add_cup1, */
+.mouse_hover:hover {
+    cursor: pointer!important;
+    background-color: rgb(0, 255, 42);
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+
+.row.content {
+    height: 1500px
+}
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+.col-sm-4 {
+    background-image: url("../image/order/main-left.gif");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.col-sm-8 {
+    background-image: url("../image/order/menu.gif");
+}
+
+.card-header {
+    background-color: white;
+
+
+
+}
+
+
+.col-6 img {
+    display: block;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.col-6 i {
+    color: white;
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn-link {
+    text-align: left;
+    color: orange;
+    font-weight: bold;
+}
+
+.price-cup {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.cam {
+    color: #ff792c;
+}
+
+.title p {
+    padding-bottom: 5%;
+}
+
+.title h3 {
+    padding-top: 15%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+/* .content {
+    display: inline-block;
+} */
+
+.tch {
+    margin-top: 0 !important;
+    width: 100% !important;
+    margin-left: 7% !important;
+    border: 4px solid #fff;
+    border-radius: 5px;
+}
+
+.notes {
+    font-size: 12px;
+}
+
+.col-6 ul li span.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+    border: 1px solid #fff;
+    font-size: 13px;
+}
+
+.notes {
+    margin-left: 10%;
+}
+
+/* Css order list */
+
+.title-menu {
+    margin-top: 20%;
+    text-align: center;
+}
+
+/* css right menu */
+
+/* .col-sm-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.user-avatar {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    /* display: inline-block;
+    float: left; */
+    background-size: cover !important;
+    display: inline-block;
+}
+
+.footer-profile {
+    padding-bottom: 10px;
+    padding-top: 11px;
+    padding-left: 20px;
+    background-color: #555;
+    color: #fff;
+}
+
+.div-hotline {
+
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    z-index: 9999;
+    width: 100%;
+    background-color: #444;
+    text-align: right;
+    padding: 5px 10px;
+}
+
+.div-hotline>div {
+    display: inline-block;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.div-hotline .hotline {
+    color: #ff792c;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-align: center;
+    margin: 4%;
+}
+
+.input-info {
+    display: inline-block;
+    background-color: #fff !important;
+    color: #555 !important;
+    box-shadow: 1px 1px 1px 0 #ddd !important;
+    border: 1px solid #ccc !important;
+    /* margin: 5%; */
+}
+
+.input-name,
+.input-quanhuyen {
+    width: 40% !important;
+    margin-right: 4%;
+}
+
+.input-phone,
+.input-thanhpho {
+    width: 40% !important;
+}
+
+.input-email,
+.input-diachi {
+    width: 85% !important;
+}
+ /* Css giờ phút */
+ .input-gio,.input-phut{
+    width: 40% !important;
+
+ }
+ .input-an{
+    display:none;
+ }
+.header img {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 4%;
+    /* margin-top: 2%; */
+}
+
+/* .col-sm-4Ơ */
+
+.col-sm-4 {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.footer-profile {
+    width: 33.5%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#quy2{
+    margin: 4px;
+}
+#quy2 img{
+    width: 80%!important;
+}
+#number_cup, #result_cup{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    margin-top: 13px;
+}
+
+#nhan {
+    color: #ff792c;
+    margin-top: 18px;
+    
+}
+.equal-icon{
+width: 60%;
+margin-top: 18px;
+margin-left: 10px;        
+margin-right: 10px;
+}
+#payment-btn {
+    margin: 10% ;
+    margin-left: 30%;
+    display: inline-block;
+    color: white;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+background-color: #ff792c;
+border: 1px solid transparent;
+border-radius: 4px;
+}
