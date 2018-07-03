@@ -5,14 +5,19 @@ require("v_header_intro.php");
 body{
     background-image: url("./image/order/menu.gif");
 }
-.navbar-collapse,.container,.navbar-fixed-top{
+/* .navbar-collapse,.container,.navbar-fixed-top{
     background-color:black;
     /* display:float; */
     float:left;
     width:100%;
     color:black;
     /* margin-right:0%!important; */
+} */
+.navbar-nav li a{
+    /* background-color:black; */
+    color:black!important;
 }
+
 .footer{
     position: absolute;
     bottom: 0;
