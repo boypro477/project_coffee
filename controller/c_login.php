@@ -29,7 +29,7 @@ if(!empty($_GET['action']))
                 $_SESSION['isadmin'] = $row['isadmin'];
 
                 echo "<meta charset='utf-8' /> <script>alert('Đăng nhập thành công !')</script>";
-                echo "<script>window.location.href = 'http://localhost:80/coffeehouse/index.php'</script>";   
+                echo "<script>window.location.href = 'index.php'</script>";   
           
 
             }
@@ -42,7 +42,7 @@ if(!empty($_GET['action']))
         case 'logout':
  
             session_destroy();
-            echo "<script>window.location.href = 'http://localhost:80/coffeehouse/index.php'</script>";  
+            echo "<script>window.location.href = 'index.php'</script>";  
             break;
     }
     
